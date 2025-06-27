@@ -1,0 +1,3 @@
+--ADEMAS HAY QUE BORRAR MANUALMENTE LOS ARCHIVOS .parquet en azure
+
+DROP EXTERNAL TABLE [silver].[EArticulo]
