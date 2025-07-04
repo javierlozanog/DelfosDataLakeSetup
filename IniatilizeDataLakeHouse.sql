@@ -1,5 +1,5 @@
 --CREATE DATABASE ldw_fonpell COLLATE Latin1_General_100_BIN2_UTF8
-use ldh_factoria
+use ldh_codisal
 
 CREATE MASTER KEY ENCRYPTION BY PASSWORD = 'NJcaE3Uk5v@V(G#-9?d='
 
@@ -14,7 +14,7 @@ EXEC('CREATE SCHEMA frontend AUTHORIZATION dbo')
 
 CREATE EXTERNAL DATA SOURCE eds_delfos
 	WITH (
-		LOCATION   = 'https://adlsdelfosanalytics.blob.core.windows.net/factoria' ,
+		LOCATION   = 'https://adlsdelfosanalytics.blob.core.windows.net/codisal' ,
 		CREDENTIAL =  WorkspaceIdentity  
 	    );
 

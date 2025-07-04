@@ -1,4 +1,4 @@
-:setvar path "D:\Projects 2024\DataExchange\Scripts\Delfos_Data_Lake\Tables\bronze"
+:setvar path "D:\Projects 2024\DelfosV2\DelfosDataLakeSetup\Tables\bronze"
 :r $(path)\CanalesMkt.sql
 :r $(path)\DsStock.sql
 :r $(path)\EAgrupacione.sql

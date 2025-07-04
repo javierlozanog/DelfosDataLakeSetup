@@ -1,4 +1,4 @@
-CREATE   VIEW [gold].[Articulo]
+CREATE OR ALTER VIEW [gold].[Articulo]
 AS
 SELECT 
 	[idArticulo]
@@ -52,9 +52,8 @@ SELECT
     ,[litrosRepago]
     ,[idArtUsado]
     ,[aniosAmortizacion]
-    ,[Ver]
 FROM 
-[silver].[EArticulo] a
+	[silver].[EArticulo] a
 WHERE 
     a.Ver <> 0
 AND a.Ver = (
